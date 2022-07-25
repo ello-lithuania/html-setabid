@@ -1,0 +1,1400 @@
+@media only screen and (max-width: 760px) {
+    .hidden-sm {
+        display: none !important;
+    }
+}
+hr {
+    background-color: #DEDEDE;
+}
+.text-right {
+    text-align: right;
+    justify-content: flex-end;
+}
+.navbar {
+    border-bottom: 1px solid #DEDEDE;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+.navbar .navbar-toggler {
+    border: 1px solid black;
+}
+nav ul {
+    margin-left: auto !important;
+}
+nav ul li a {
+    font-family: Sora;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0em;
+color: #8C8C8C !important;
+padding-left: 1.5rem !important;
+padding-right: 1.5rem !important;
+}
+nav .create-auction-btn {
+    background: #26EEB2;
+    box-shadow: 10px 10px 20px 0px #26EEB233;
+    font-family: Sora;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    padding: 1rem;
+    color: black;    
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin-left: 1.5rem;
+    text-transform: uppercase;
+}
+nav .create-auction-btn img {
+    margin-right: 0.5rem;
+}
+nav .logout-btn {
+    background-color: #EDEDED;
+    border-radius: 10px;
+    padding: 0.5rem;
+    border: none;
+    margin-left: 3rem;
+}
+@media only screen and (max-width: 760px) {
+    nav ul li a {
+        margin-bottom: 0.5rem;
+    }
+    nav .create-auction-btn {
+        margin: 0;
+        margin-bottom: 0.5rem;
+        display: inline-flex !important;
+        width: 70%;
+    }
+    nav .logout-btn {
+        display: inline-flex !important;
+        width: 20%;
+        margin: 0;
+        justify-content: center;
+        margin-left: 5%;
+    }
+}
+/* */
+.loginLeftSide .navbar-brand {
+    margin-top: 0.5rem;
+    margin-bottom: 10rem;
+    display: block;
+}
+.loginLeftSide .login-form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+@media only screen and (min-width: 760px) {
+    .loginLeftSide{
+        padding: 6rem;
+        padding-bottom: 10rem;
+        padding-top: 0;
+    }
+}
+.loginLeftSide .form-check {
+    font-family: Sora;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;   
+    display: flex;
+    align-items: center;  
+    padding: 0;
+}
+.loginLeftSide .form-check input {
+    margin: 0;
+    margin-right: 5px;
+    border: 1px solid #DEDEDE;
+    height: 18px;
+    width: 18px;
+    border-radius: 5px;
+    background: #F5F5F599;
+}
+.loginLeftSide .text-right a{
+    font-family: Sora;
+font-size: 12px;
+font-weight: 600;
+line-height: 15px;
+letter-spacing: 0em;
+color: #9A41FC;
+}
+.loginLeftSide button {
+    width: 100%;
+    color: white;
+    background: #9A41FC;
+    box-shadow: 10px 10px 20px 0px #9A41FC33;
+    border-radius: 15px;
+    padding: 1rem;
+    font-family: Sora;
+font-size: 14px;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+border: none;
+margin-top: 2rem;
+margin-bottom: 1.5rem;
+}
+.loginLeftSide .rememberBtn a {
+    text-decoration: none;
+font-family: Sora;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+color: black;
+}
+.loginLeftSide h1 {
+    font-family: Sora;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    color: black;
+    margin-bottom: 1rem;
+}
+.loginLeftSide p {
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: #8C8C8C;
+    margin-bottom: 2rem;
+    max-width: 433px;
+}
+.loginLeftSide input.form-control {
+    background: #F5F5F599;
+    border: 1px solid #DEDEDE;
+    width: 100%;
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    padding: 1rem;
+    border-radius: 15px;
+}
+.loginLeftSide input.form-control::placeholder {
+    color: #8C8C8C;
+
+}
+.loginLeftSide,.loginBackgroundSide {
+    min-height: 100vh;
+}
+.loginLeftSide {
+    background: url('../images/loginLeftBG.png'), url('../images/loginLeftBottomBG.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: top 0% right -30%, bottom -5% left -10%;
+}
+.loginBackgroundSide {
+    background: url('../images/login-bg.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+/* */
+.profile-page {
+    background: url('../images/profile-bg-img.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: top -10% left 0%;
+}
+.profile-page h1 {
+    font-family: Sora;
+font-size: 56px;
+font-weight: 700;
+line-height: 71px;
+letter-spacing: 0em;
+text-align: center;
+max-width: 844px;
+
+margin: 0 auto;
+margin-bottom: 2rem;
+margin-top: 4rem;
+}
+.profile-description {
+    max-width: 640px;
+    font-family: Sora;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0 auto;
+    color: #8C8C8C;
+    margin-bottom: 4rem;
+}
+.profile-page .profile-inputBottom-text {
+    font-family: Sora;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8C8C8C;
+    margin-left: 1rem;
+}
+.profile-page hr {
+    margin-top: 2.5rem;
+}
+.profile-page h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-family: Sora;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.profile-page .profile-second-description {
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #8C8C8C;
+    margin-bottom: 3rem;
+}
+.profile-submit-btns {
+    margin-bottom: 5rem;
+}
+.profile-submit-btns a,.profile-submit-btns button {
+   border-radius: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+   font-family: Sora;
+font-size: 14px;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0em;
+padding: 1rem;
+}
+.add-people-main .profile-submit-btns {
+    margin-top: 6rem !important;
+}
+.profile-submit-btns a {
+    color: #8C8C8C;
+    border: 1px solid #DEDEDE;
+    background-color: transparent;
+    text-decoration: none;
+}
+@media only screen and (max-width: 760px) {
+    .profile-submit-btns a {
+        margin-bottom: 1.5rem;
+    }
+}
+.profile-submit-btns button {
+    background-color: #9A41FC;
+    color: white;
+    box-shadow: 10px 10px 20px 0px #9A41FC33;
+}
+.profile-submit-btns button img {
+    margin-left: 1.75rem;
+}
+.profile-page .input-group input {
+    background: #F5F5F5;
+    font-family: Sora;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+    padding: 1rem;
+    border-radius: 15px;
+    border: 1px solid #DEDEDE;
+    border-right: none;
+    height: 56px;
+}
+.profile-page .input-group .input-group-append, .profile-page .input-group .input-group-append span {
+    height: 56px;
+}
+.profile-page .input-group input:focus {
+    outline: none !important;
+    border: none;
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.profile-page .input-group .input-group-append span {
+    background: #F5F5F5;
+    min-width: 60px;
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #DEDEDE;
+    border-left: none;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.profile-page .input-group input::placeholder {
+    color: #8C8C8C;
+}
+.inputFocus input,.inputFocus .input-group-append span {
+    border: 1px solid #9A41FC !important;
+}
+.inputFocus input {
+    border-right: 0 !important;
+}
+.inputFocus .input-group-append span {
+    border-left: 0 !important;
+}
+.inputFocus svg path {
+    fill: #9A41FC;
+}
+/* */
+.auctions-main {
+    padding-top: 4rem;
+    padding-bottom: 7rem;
+}
+.auctions-main .create-new-auction-btn, .auctions-main .card {
+    min-height: 324px;
+    max-height: 324px;
+    width: 100%;
+}
+@media only screen and (max-width: 960px) {
+    .auctions-main .create-new-auction-btn {
+        margin-bottom: 2rem;
+    }
+    .auctions-main .card {
+        min-height: 360px;
+        max-height: 360px;
+    }
+    .auctions-main .card .card-body, .auctions-main .card .card-img-top {
+        padding: 0.5rem;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    }
+    .profile-page h1 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .profile-page .profile-inputBottom-text {
+        margin-top: -1rem;
+    }
+}
+.auctions-main .create-new-auction-btn {
+    background: rgba(154, 65, 252,.10);
+    border: 1px solid #9A41FC33;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    flex-direction: column;
+    text-decoration: none;
+    color: #9A41FC;
+    border: 1px solid rgba(154, 65, 252,.2);
+}
+.auctions-main .create-new-auction-btn img {
+    background: rgba(154, 65, 252,.05);
+    padding: 1rem;
+    border-radius: 15px;
+    margin-bottom: 1.5rem;
+}
+.auctions-main .card {
+border-radius: 15px;
+overflow: hidden;
+text-decoration: none;
+margin-bottom: 2.5rem;
+}
+.auctions-main a.card:hover .card-img-top{
+ 
+}
+.auctions-main .card .card-img-top {
+    display: block;
+    padding: 1rem;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    min-height: 240px;
+    text-align: right;
+    position: relative;
+    transition: 1s ease-in-out;
+}
+.auctions-main .card .card-img-top p.card-status {
+    background: #26EEB2;
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+color: black;
+box-shadow: 10px 10px 20px 0px #26EEB233;
+padding: 1rem 2rem;
+border-radius: 10px;
+margin-left: 0 auto;
+font-family: Sora;
+font-size: 12px;
+font-weight: 700;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+display: inline-block;
+}
+.auctions-main .card .card-img-top p.card-status.card-status-ended {
+    background: black;
+    color: white;
+    box-shadow: 10px 10px 20px 0px #26EEB233;
+}
+.auctions-main .card .card-img-top p.card-timer {
+    position: absolute;
+    background: white;
+    padding: 0.5rem;
+    box-shadow: 4px 4px 20px 0px #0000001A;
+    font-family: Sora;
+font-size: 10px;
+font-weight: 400;
+line-height: 13px;
+letter-spacing: 0em;
+color: #8C8C8C;
+border-radius: 10px;
+margin: 0;
+right: 1rem;
+bottom: -1rem;
+}
+.auctions-main .card .card-img-top p.card-timer span {
+    font-family: Sora;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    color: black;
+    display: block;
+}
+.auctions-main .card h5 {
+font-family: Sora;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+}
+.auctions-main .card .d-flex p {
+    font-family: Sora;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+  color: #8C8C8C;
+  padding-right: 0.6rem;
+  margin-right: 0.6rem;
+  border-right: 1px solid #8C8C8C;
+}
+.auctions-main .card .d-flex p:last-of-type {
+    border: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+.auctions-main .card .d-flex img {
+    margin-right: 0.5rem;
+}
+.auctions-main .card .d-flex b {
+    color: black;
+}
+.auctions-main .btn-show-more {
+    color: #9A41FC;
+    background-color: transparent;
+    padding: 1rem 1.5rem;
+    font-family: Sora;
+font-size: 10px;
+font-weight: 700;
+line-height: 13px;
+letter-spacing: 0em;
+display: inline-block;
+cursor: pointer;
+margin: 0 auto;
+border: 1px solid #DEDEDE;
+width: auto;
+border-radius: 15px;
+margin-top: 1rem;
+}
+.auctions-main .btn-show-more img {
+    margin-right: 1rem;
+}
+/* */
+.img-upload-button label {
+  background-color: #F5F5F5;
+  border-radius: 15px;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.img-upload-button label div {
+    background: rgba(222, 222, 222,.45);
+    padding: 1.25rem;
+    border-radius: 15px;
+    margin-bottom: 1.5rem;
+    min-height: 62px;
+}
+.img-upload-button label p {
+    display: block;
+    font-family: Sora;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+color: #8C8C8C;
+margin: 0;
+}
+.img-upload-button label p span {
+    color: #9A41FC;
+}
+/* */
+#ex1 .nav-link {
+    color: #8C8C8C;
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-bottom: 1px solid #8C8C8C;
+    text-align: center;
+    padding-bottom: 1.3rem;
+}
+#ex1 .nav-link.active {
+    color: black;
+    font-family: Sora;
+font-size: 14px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+border: none;
+border-bottom: 4px solid #9A41FC;
+}
+#ex1 .nav-link:hover {
+    border: none;
+    border-bottom: 1px solid #8C8C8C;
+}
+#ex1 .nav-link span {
+    color: white;
+    min-width: 27px;
+    display: inline-block;
+    min-height: 27px;
+    border-radius: 50%;
+    background: #DEDEDE;
+    margin-right: 1rem;
+    padding: 0.5rem 0.8rem;
+}
+#ex1 .nav-link.active span {
+    background: #9A41FC;
+}
+#ex1 li.nav-item {
+    width: 33.33%;
+}
+/* */
+.auction-single {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+.auction-single h1 {
+    font-family: Sora;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+}
+.auction-single .heading-top {
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.auction-single .heading-top p {
+    background: #26EEB2;
+    color: black;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 1rem;
+    margin: 0;
+    margin-left: 3rem;
+    font-family: Sora;
+font-size: 12px;
+font-weight: 700;
+line-height: 15px;
+letter-spacing: 0em;
+}
+.auction-single .object-address {
+    font-family: Sora;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+display: flex;
+align-items: center;
+}
+.auction-single .object-address img {
+    margin-right: 0.6rem;
+}
+.auction-single .object-price {
+    color: #8C8C8C;
+    font-family: Sora;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+}
+.auction-single .object-price b {
+font-family: Sora;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: black;
+}
+.auction-single .auction-top-price {
+    background: white;
+    box-shadow: 0px 4px 20px 0px #0000001A;
+    padding: 1.5rem;
+    border-radius: 15px;
+    margin-top: 1.75rem;
+    margin-bottom: 2rem;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.auction-single .auction-top-price .auction-top-price-heading {
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8C8C8C;
+}
+.auction-single .auction-top-price .auction-top-price-total {
+    font-family: Sora;
+font-size: 20px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+color: #9A41FC;
+margin: 0;
+}
+.auction-single .auction-top-price .auction-top-price-time {
+    color: black;
+    font-family: Sora;
+font-size: 20px;
+margin: 0;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+}
+.auction-single .auction-submit-form {
+    margin-bottom: 1.5rem;
+}
+.auction-single .auction-submit-form input {
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid #DEDEDE;
+    background: linear-gradient(0deg, #DEDEDE, #DEDEDE),
+linear-gradient(0deg, rgba(245, 245, 245, 0.6), rgba(245, 245, 245, 0.6));
+padding: 1rem;
+font-family: Sora;
+font-size: 14px;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0em;
+}
+.auction-single .auction-submit-form button {
+    width: 100%;
+    background: #9A41FC;
+color: white;
+box-shadow: 10px 10px 20px 0px #9A41FC33;
+padding: 1rem;
+border-radius: 15px;
+font-family: Sora;
+font-size: 14px;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+}
+.auction-single .auction-submit-form button img {
+    margin-right: 0.5rem;
+}
+.auction-single .minimum-interval {
+    border: 1px solid #DEDEDE;
+    padding: 0.7rem;
+    border-radius: 15px;
+font-family: Sora;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+display: flex;
+align-items: center;
+margin-bottom: 2rem;
+}
+.auction-single .minimum-interval b {
+font-family: Sora;
+font-size: 12px;
+font-weight: 600;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+}
+.auction-single .minimum-interval img {
+    margin-right: 0.7rem;
+}
+.auction-single .text-heading {
+    font-family: Sora;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 1rem;
+}
+.auction-single .auction-history {
+    background: #F5F5F599;
+    padding: 0.7rem;
+    border-radius: 15px;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.auction-single .auction-history p {
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8C8C8C;
+    margin: 0;
+}
+.auction-single .auction-history b {
+    font-family: Sora;
+font-size: 14px;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.auction-single .auction-organization {
+    background: linear-gradient(270deg, rgba(38, 238, 178, 0.6) 0%, rgba(154, 65, 252, 0.6) 100%);
+    border-radius: 15px;
+    padding: 1rem;
+}
+.auction-single .auction-organization h3 {
+    font-family: Sora;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    margin-bottom: 0.5rem;
+}
+.auction-single .auction-organization .organisation-phone {
+    font-family: Sora;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+margin-bottom: 0.5rem;
+}
+.auction-single  .nav-pills {
+    margin-bottom: 1.5rem;
+}
+.auction-single  .nav-pills .nav-link {
+    border: 1px solid #DEDEDE;
+    background-color: white;
+    padding: 0.8rem 1.6rem;
+    font-family: Sora;
+font-size: 12px;
+font-weight: 600;
+line-height: 15px;
+letter-spacing: 0em;
+color: #8C8C8C;
+margin-right: 0.6rem;
+border-radius: 15px;
+}
+.auction-single  .nav-pills .nav-link.active {
+    background-color: #9A41FC;
+    color: white;
+}
+.auction-single .auction-description-main {
+color: #8C8C8C;  
+padding: 1rem;
+border: 1px solid #DEDEDE;
+min-height: 248px;
+border-radius: 15px;
+margin-bottom: 1.5rem;
+}
+.file-download-main {
+    padding: 0.6rem;
+    font-family: Sora;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+color: black;
+border: 1px solid #DEDEDE;
+margin-bottom: 1rem;
+border-radius: 15px;
+text-decoration: none;
+display: flex;
+align-items: center;
+}
+#dalyviai img {
+    box-shadow: 0px 4px 20px 0px #0000001A;
+    width: 84px;
+    height: 84px;
+    padding: 0.1rem;
+}
+#dalyviai h4 {
+    font-family: Sora;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+margin-top: 1.25rem;    
+margin-bottom: 2.25rem; 
+}
+.file-download-main .first-upload-image {
+    margin-right: 0.5rem;
+}
+.file-download-main .second-img {
+    margin-left: auto;
+}
+.finished-auction.finished-auction .auction-thumbnail-main img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.finished-auction.finished-auction .heading-top p {
+    background: black;
+    color: white;
+}
+.finished-auction.finished-auction .auction-submit-form .col-6 {
+    display: none;
+}
+.finished-auction.finished-auction .auction-submit-form .col-12.hidden {
+    display: block;
+}
+.finished-auction.finished-auction .heading-top p span {
+    display: none;
+}
+.finished-auction.finished-auction .heading-top p span.hidden {
+    display: block !important;
+}
+.auction-single .more-info-link {
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+      
+}
+.auction-single .more-info-link a {
+    color: #9A41FC;
+    text-decoration: none;
+}
+.auction-single .auction-thumbnail-main {
+    position: relative;
+}
+.auction-single .auction-thumbnail-main img {
+    margin-bottom: 2.5rem;
+}
+.auction-single .auction-thumbnail-main p {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    font-family: Sora;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 0.7rem;
+    box-shadow: 10px 10px 20px 0px #0000001A;
+    z-index: 2;
+}
+.auction-single .auction-organization .organisation-email {
+    color: #9A41FC;
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+.auction-single .auction-organization .organisation-name {
+    color: #8C8C8C;
+    font-family: Sora;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+    text-transform: uppercase;
+}
+/* */
+footer {
+    background: #111111;
+    padding-top: 1.5rem;
+    padding-bottom: 1.8rem;
+}
+footer a,footer p {
+    color: #8C8C8C;
+    text-decoration: none;
+    font-family: Sora;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0;
+}
+footer .col-md-3, footer .col-md-6 {
+    display: flex;
+    align-items: center;
+}
+footer .col-md-6 {
+    justify-content: center;
+}
+@media only screen and (max-width: 760px) {
+    footer .text-right {
+        justify-content: center;
+    }
+}
+/* */
+.auction-register .congratulations-message {
+    margin-top: 2rem;
+    background-color: rgba(38, 238, 178,0.1);
+    border-radius: 15px;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    text-align: center;
+}
+.auction-register .congratulations-message img {
+    margin-bottom: 1rem;
+}
+.auction-register .congratulations-message h3 {
+    font-family: Sora;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+margin-bottom: 0.5rem;
+text-transform: uppercase;
+}
+.auction-register .congratulations-message p {
+    font-family: Sora;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0em;
+margin: 0;
+}
+.auction-register .confirm-pricing {
+    font-family: Sora;
+font-size: 24px;
+font-weight: 600;
+line-height: 30px;
+display: block;
+letter-spacing: 0em;
+margin-bottom: 3rem;
+}
+.auction-register .confirm-pricing span {
+    float: right;
+    color: #2EEFB5;
+    font-family: Sora;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+}
+.auction-register .confirm-details {
+    font-family: Sora;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+margin-top: 3rem;
+color: #8C8C8C;
+}
+.auction-register .confirm-submit {
+    color: white;
+    margin-bottom: 1rem;
+    display: block;
+    width: 100%;
+    box-shadow: 10px 10px 20px 0px #9A41FC33;
+    border-radius: 15px;
+    border: none;
+    margin-top: 2rem;
+    background: #9A41FC;
+    padding: 1rem;
+    font-family: Sora;
+font-size: 14px;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+}
+.auction-register .confirm-after-submit-text {
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.auction-register .confirm-copy-details {
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;    
+    align-items: center;
+}
+.auction-register .confirm-copy-details button {
+    background: none;
+    border: none;
+    color: #9A41FC;
+}
+.auction-register .confirm-last-text {
+    color: #8C8C8C;
+font-family: Sora;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+margin-top: 0rem;
+}
+.auction-register .confirm-copy-details .input-group-text,.auction-register .confirm-copy-details input {
+    border-color: #DEDEDE;
+    background: white;
+    padding: 0.3rem;
+    border-radius: 15px;
+}
+.auction-register .confirm-copy-details .input-group-text {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-left: none;
+}
+.auction-register .confirm-copy-details input {
+font-family: Sora;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+color: #9A41FC;
+text-align: center;
+}
+.auction-register .confirm-last-text b{
+    font-family: Sora;
+font-size: 12px;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+}
+.add-people-main h2 {
+    font-family: Sora;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.add-people-main .profile-submit-btns {
+    margin-top: 4rem;
+}
+.add-people-main .add-button {
+    width: 100%;
+    margin-top: 0rem;
+    padding: 1.2rem 1.6rem;
+    display: flex;
+    align-items: center;
+    font-family: Sora;
+font-size: 14px;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0em;
+color: #8C8C8C;
+background: rgba(154, 65, 252, 0.05);
+border-radius: 15px;
+border: none;
+}
+.add-people-main .add-button .first-add-img {
+    margin-right: 0.8rem;
+}
+.add-people-main .add-button span {
+    margin-left: auto;
+    padding: 1rem;
+    color: white;
+    background: #9A41FC;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.add-people-main .add-button span img {
+    margin-right: 0.6rem;
+}
+
+
+/* */
+  .form-select, .form-control {
+    border: none;
+    border-bottom: 1px solid #000000;
+    border-radius: 0;
+  }
+  .form-select:focus, .form-control:focus {
+    box-shadow: none;
+    border-bottom-color: #9A41FC;
+  }
+  .form-select + label, .form-control + label{
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    top: 15px;
+}
+.input-group.form-floating .form-select + label, .input-group.form-floating .form-control + label{
+    top: -5px;
+}
+  .form-select:focus + label, .form-control:focus + label, .input-group.form-floating  .form-control:focus + label{
+    color: #9A41FC;
+    z-index: 222;
+  }
+  .form-floating>.form-control:focus~label, .form-floating>.form-control:not(:placeholder-shown)~label, .form-floating>.form-select~label,.form-floating>.form-control:-webkit-autofill~label {
+    left: 5px;
+    top: 5px;
+  }
+.tab-content input {
+    background: #F5F5F599;
+    border: 1px solid #DEDEDE;
+    width: 100%;
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    padding: 1rem;
+    border-radius: 15px;
+}
+.tab-content .form-floating>.form-control {
+    padding-top: 1.625rem;
+    padding-bottom: 0.625rem;
+    padding-left: 1.1rem;
+}
+.tab-content .img-upload-button label {
+border: 1px solid #DEDEDE;
+}
+.tab-content textarea {
+    background: #F5F5F599;
+    border: 1px solid #DEDEDE;
+    width: 100%;
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    padding: 1rem;
+    border-radius: 15px;
+}
+.tab-content .auction-date-ending {
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+.tab-content .auction-date-ending-input {
+    background-color: rgba(154, 65, 252, 0.05);
+    border: none;
+    margin-bottom: 3rem;
+    width: auto;
+    padding-left: 0.5rem 1rem;
+}
+.tab-content input[type="date"].auction-date-ending-input::-webkit-calendar-picker-indicator {
+    padding: 0.6rem;
+    background-color: rgba(154, 65, 252, 0.20);
+    border-radius: 10px;
+}
+.tab-content .upload-files-header {
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;    
+    margin-bottom: 0.5rem; 
+}
+.tab-content .upload-files-paragraph {
+    font-family: Sora;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+color: #8C8C8C;
+}
+.tab-content .img-upload-button-small label {
+    background: rgba(154, 65, 252, 0.05);
+    border-radius: 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 1rem 1.35rem 1.5rem;
+    font-family: Sora;
+font-size: 14px;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0em;
+color: #8C8C8C;
+cursor: pointer;
+}
+.tab-content .img-upload-button-small label .first-img-upload {
+    margin-right: 1rem;
+}
+.tab-content .img-upload-button-small label span {
+    margin-left: auto;
+    background: #9A41FC;
+border-radius: 10px;
+padding: 0.7rem 0.9rem;
+color: white;
+display: flex;
+align-items: center;
+}
+.tab-content .img-upload-button-small label span img {
+    margin-right: 0.6rem;
+}
+.tab-content .auction-type-heading {
+    font-family: Sora;
+font-size: 24px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.tab-content .auction-type-main {
+    border: 1px solid #DEDEDE;
+    border-radius: 15px;
+    padding: 1rem;
+    cursor: pointer;
+}
+.tab-content .auction-type-main img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.tab-content .auction-type-main.active-type-selection {
+    border: 1px solid #9A41FC;
+}
+.tab-content .auction-type-main.active-type-selection img {
+-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+filter: grayscale(0%);
+}
+.tab-content .auction-type-main input {
+    margin-left: auto;
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+}
+.tab-content .auction-type-main input:checked {
+    background-color: #9A41FC;
+    border-color: #9A41FC;
+}
+.pr-0 {
+    padding-right: 0.5rem !important;
+}
+#aukcijono-informacija-1 .profile-submit-btns {
+    margin-top: 6rem;
+}
+.auction-create-tab-menu-active span {
+    display: none;
+}
+.hidden {
+    display: none !important;
+}
+.auction-create-tab-menu-active {
+
+    border-bottom: 4px solid #9A41FC !important;
+}
+.auction-create-tab-menu-active span:first-of-type {
+    display: none !important;
+}
+.auction-create-tab-menu-active span.hidden {
+    display: inline-block !important;
+    color: black;
+    font-family: Sora;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    line-height: 18px  !important;
+    letter-spacing: 0em;
+    border: none;
+    background-color: #2EEFB5 !important;
+}
+.auction-register .nav-link {
+    cursor:none !important
+}
+.auction-register .nav-link:hover {
+    border-bottom: 4px solid #9A41FC !important;
+}
+@media only screen and (max-width: 960px) { 
+    #ex1 .nav-link {
+        padding: 0.5rem 0 !important;
+        font-size: 10px !important;
+    }
+    #ex1 .nav-link  span.hidden, #ex1 .nav-link  span{
+        padding: 0.25rem 0.2rem !important;
+        margin-right: 5px !important
+    }
+    .auction-type-main:first-of-type {
+        margin-bottom: 2rem;
+    }
+    .add-people-main textarea {
+        margin-bottom: 2rem;
+    }
+    .mt-sm-3 {
+        margin-top: 2rem;
+    }
+    .confirm-pricing {
+        text-align: center;
+    }
+    .confirm-pricing span {
+        display: block;
+        float: none !important;
+    }
+}
